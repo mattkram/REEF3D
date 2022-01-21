@@ -56,7 +56,7 @@ void force_ale::print_ini(lexer* p, fdm_fnpf *c, ghostcell *pgc)
         fout<<p->P85_x[ID]<<" \t "<<p->P85_y[ID]<<" \t "<<p->P85_cd[ID]<<" \t "<<p->P85_cm[ID] <<endl;
         fout<<endl<<endl;
      
-        fout<<"it \t time \t Fx \t Fy ";
+        fout<<"it \t time \t Fx \t Fy \t ax ";
 
         fout<<endl;
 	}
