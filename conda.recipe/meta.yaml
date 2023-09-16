@@ -1,5 +1,5 @@
 {% set name = "reef3d" %}
-{% set version = "21.11" %}
+{% set version = "23.08" %}
 #  # sha256 is the preferred checksum -- you can get it for a file with:
 #  #  `openssl sha256 <file name>`.
 #  # You may need the openssl package, available on conda-forge:
@@ -44,7 +44,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE
-  summary: REEF3D : Open-Source Hydrodynamics
+  summary: "REEF3D : Open-Source Hydrodynamics"
   description: |
     REEF3D is an open-source hydrodynamics framework.  The software is efficiently parallelized, 
     designed to run on a large number of processors. High-order spatial and temporal discretization 
